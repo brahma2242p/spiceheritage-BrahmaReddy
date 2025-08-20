@@ -10,7 +10,7 @@
 
 ## 📑 Table of Contents
 - [✨ Features](#-features)
-- [✨ Tech Stack](#-tech-stack)
+- [🏗 Tech Stack](#-tech-stack)
 - [⚡ Architecture](#-architecture)
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
