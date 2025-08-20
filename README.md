@@ -146,6 +146,8 @@ Cardinal Notation
 
 ### 📑 My Orders Page
 ![My Orders Page](images/My-Orders.png)
+### 🛒 Checckout Page
+![Checkout Page](images/Checkout-Page.png)
 
 ### 🏠 Admin Home / Dashboard
 ![Admin Home](images/Admin-HomePage.png)
