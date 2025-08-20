@@ -5,6 +5,16 @@
 ![Status](https://img.shields.io/badge/Deployment-Render%20Cloud-success?logo=render)  
 ![Database Deployment](https://img.shields.io/badge/DB%20Hosting-Supabase-brightgreen?logo=supabase) 
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://spiceheritage-brahmareddy.onrender.com/)
+
+## 📑 Table of Contents
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [ER Diagram](#-spice-heritage-er-diagram)
+- [Screenshots](#-screenshots)
+- [Setup / Installation](#-setup--installation)
+
 A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP, Servlets, Oracle/PostgreSQL, HTML, CSS, JavaScript, and Firebase OTP authentication**.  
 ---
 ## ✨ Features  
@@ -161,6 +171,65 @@ Cardinal Notation
 
 ### 🛒 Orders Management Page
 ![Orders Page](images/OrderManagement.png)
+
+## ⚙️ Setup / Installation
+### 1️⃣ Clone the Repository
+- git clone https://github.com/your-username/spiceheritage.git
+- cd spiceheritage
+
+### 2️⃣ Add Required JAR Files
+
+- Place the following JAR files in your project lib/ folder (or classpath):
+
+- gson-2.8.9.jar → For JSON parsing
+
+- jbcrypt-0.4.jar → For password hashing
+
+- postgresql-42.7.6.jar → PostgreSQL database driver
+
+- jakarta.servlet-api-6.0.0.jar → For Jakarta Servlets support
+
+- These libraries are necessary for the backend to compile and run properly.
+
+### 3️⃣ Set Environment Variables
+
+- Set the following environment variables for your database connection:
+
+- # Windows CMD
+- set DB_URL=jdbc:postgresql://localhost:5432/spiceheritage
+- set DB_USER=your_db_user
+- set DB_PASSWORD=your_db_password
+
+- # Linux / Mac
+- export DB_URL=jdbc:postgresql://localhost:5432/spiceheritage
+- export DB_USER=your_db_user
+- export DB_PASSWORD=your_db_password
+- The project will read these variables to connect to the database dynamically.
+
+### 4️⃣ Database Setup
+
+ - PostgreSQL (Recommended):
+   - Create a new database in localhost or use render or supabase services
+- Use can use any database you want Oracle,MySQl etc..
+- Create tables based on the above ER-Diagram
+- During Deployment set above environment variables with your own database credentials
+
+
+### 5️⃣ Java & Servlet Setup
+
+- Make sure Java 17+ is installed.
+
+- Install a servlet container like Apache Tomcat 10+ (supports Jakarta Servlets).
+
+- Build the .war file:
+
+- mvn clean package
+
+
+- Deploy the .war file to Tomcat webapps/ folder.
+
+- Start Tomcat and access:
+
 
 
 
