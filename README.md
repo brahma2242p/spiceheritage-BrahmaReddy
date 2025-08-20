@@ -14,8 +14,8 @@
 - [⚡ Architecture](#-architecture)
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
-- [⚙️ Setup / Installation](#setup-installation)
-- [🤝 Contribution Guidelines](#contribution-guidelines)
+- [⚙️ Setup / Installation](#-setup-installation)
+- [🤝 Contribution Guidelines](#-contributing)
 - [📬 Contact](#-contact)
 
 
