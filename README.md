@@ -177,63 +177,62 @@ Cardinal Notation
 ### 🛒 Orders Management Page
 ![Orders Page](images/OrderManagement.png)
 
+
 ## ⚙️ Setup Installation
- ### 1️⃣ Clone the Repository
-- git clone https://github.com/brahma2242p/spiceheritage-BrahmaReddy.git
-- cd spiceheritage-BrahmaReddy
+  ### 1️⃣ Clone the Repository
+    - git clone https://github.com/brahma2242p/spiceheritage-BrahmaReddy.git
+    - cd spiceheritage-BrahmaReddy
+  ### 2️⃣ Add Required JAR Files
 
-### 2️⃣ Add Required JAR Files
+  - Place the following JAR files in your project lib/ folder (or classpath):
 
-- Place the following JAR files in your project lib/ folder (or classpath):
+  - gson-2.8.9.jar → For JSON parsing
 
-- gson-2.8.9.jar → For JSON parsing
+  - jbcrypt-0.4.jar → For password hashing
 
-- jbcrypt-0.4.jar → For password hashing
+  - postgresql-42.7.6.jar → PostgreSQL database driver
 
-- postgresql-42.7.6.jar → PostgreSQL database driver
+  - jakarta.servlet-api-6.0.0.jar → For Jakarta Servlets support
 
-- jakarta.servlet-api-6.0.0.jar → For Jakarta Servlets support
+  - These libraries are necessary for the backend to compile and run properly.
+  ### 3️⃣ Set Environment Variables
 
-- These libraries are necessary for the backend to compile and run properly.
+  - Set the following environment variables for your database connection:
 
-### 3️⃣ Set Environment Variables
+  - # Windows CMD
+  - set DB_URL=jdbc:postgresql://localhost:5432/your_database_name
+  - set DB_USER=your_db_user
+  - set DB_PASSWORD=your_db_password
 
-- Set the following environment variables for your database connection:
+  - # Linux / Mac
+  - export DB_URL=jdbc:postgresql://localhost:5432/spiceheritage
+  - export DB_USER=your_db_user
+  - export DB_PASSWORD=your_db_password
+  - The project will read these variables to connect to the database dynamically.
 
-- # Windows CMD
-- set DB_URL=jdbc:postgresql://localhost:5432/spiceheritage
-- set DB_USER=your_db_user
-- set DB_PASSWORD=your_db_password
+  ### 4️⃣ Database Setup
 
-- # Linux / Mac
-- export DB_URL=jdbc:postgresql://localhost:5432/spiceheritage
-- export DB_USER=your_db_user
-- export DB_PASSWORD=your_db_password
-- The project will read these variables to connect to the database dynamically.
-
-### 4️⃣ Database Setup
-
- - PostgreSQL (Recommended):
-   - Create a new database in localhost or use render or supabase services
-- Use can use any database you want Oracle,MySQl etc..
-- Create tables based on the above ER-Diagram
-- During Deployment set above environment variables with your own database credentials
+   - PostgreSQL (Recommended):
+     - Create a new database in localhost or use render or supabase services
+  - Use can use any database you want Oracle,MySQl etc..
+  - Create tables based on the above ER-Diagram
+  - During Deployment set above environment variables with your own database credentials
 
 
-### 5️⃣ Java & Servlet Setup
+  ### 5️⃣ Java & Servlet Setup
 
-- Make sure Java 17+ is installed.
-
-- Install a servlet container like Apache Tomcat 10+ (supports Jakarta Servlets).
-
-- Build the .war file:
-
-- mvn clean package
-
-
-- Deploy the .war file to Tomcat webapps/ folder.
-
-- Start Tomcat and access
+  - Make sure Java 17+ is installed.
+  
+  - Install a servlet container like Apache Tomcat 10+ (supports Jakarta Servlets).
+  
+  - Build the .war file:
+  
+  - mvn clean package
+  
+  
+  - Deploy the .war file to Tomcat webapps/ folder.
+  
+  - Start Tomcat and access
 
 ---
 
