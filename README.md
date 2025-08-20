@@ -14,7 +14,7 @@
 - [⚡ Architecture](#-architecture)
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
-- [⚙️ Setup / Installation](https://github.com/brahma2242p/spiceheritage-BrahmaReddy/tree/main?tab=readme-ov-file#%EF%B8%8F-setup-installation)
+- [⚙️ Setup / Installation](#%EF%B8%8F-setup-installation)
 - [🤝 Contribution Guidelines](#-contributing)
 - [📬 Contact](#-contact)
 
