@@ -126,7 +126,40 @@ Cardinal Notation
     ORDERS "1" --> "1..*" ORDER_ITEMS : contains 
     
     ORDER_ITEMS "*" --> "1" PRODUCTS : references 
-    
+```
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](images/HomePage.png)
+
+### ⭐ Featured Products Section
+![Featured Products](images/FeaturedProducts.png)
+
+### 📂 Catalog Page
+![Catalog Page](images/CatalogProducts.png)
+
+### 🛒 Cart Page
+![Cart Page](images/CartPage.png)
+
+### 👤 My Profile Page
+![Profile Page](images/My-Profile.png)
+
+### 📑 My Orders Page
+![My Orders Page](images/My-Orders.png)
+
+### 🏠 Admin Home / Dashboard
+![Admin Home](images/Admin-HomePage.png)
+
+### 📦 Products Management Page
+![Products Page](images/Admin-Products.png)
+
+### 👥 Users Management Page
+![Users Page](images/Users.png)
+![Users Page](images/UserManagement.png)
+
+### 🛒 Orders Management Page
+![Orders Page](images/OrderManagement.png)
+
 
 
 
