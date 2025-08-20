@@ -126,7 +126,7 @@ Cardinal Notation
     ORDERS "1" --> "1..*" ORDER_ITEMS : contains 
     
     ORDER_ITEMS "*" --> "1" PRODUCTS : references 
-```
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
