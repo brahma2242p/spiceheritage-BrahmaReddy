@@ -14,8 +14,8 @@
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
 - [⚙️ Setup / Installation](#-setup-installation)
-- [Contribution Guidelines](#-contribution-guidelines)
-- [Contact](#-contact)
+- [🤝 Contribution Guidelines](#-contribution-guidelines)
+- [📬 Contact](#-contact)
 
 
 
