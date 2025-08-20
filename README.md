@@ -4,7 +4,7 @@
 ![Database](https://img.shields.io/badge/Database-Oracle%20%7C%20PostgreSQL-green?logo=postgresql)  
 ![Status](https://img.shields.io/badge/Deployment-Render%20Cloud-success?logo=render)  
 ![Database Deployment](https://img.shields.io/badge/DB%20Hosting-Supabase-brightgreen?logo=supabase) 
-![License](https://img.shields.io/badge/License-Custom-green)(./LICENSE)
+
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://spiceheritage-brahmareddy.onrender.com/)
 
@@ -14,8 +14,8 @@
 - [⚡ Architecture](#-architecture)
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
-- [⚙️ Setup / Installation](#-setup-installation)
-- [🤝 Contribution Guidelines](#-contribution-guidelines)
+- [⚙️ Setup / Installation](#setup-installation)
+- [🤝 Contribution Guidelines](#contribution-guidelines)
 - [📬 Contact](#-contact)
 
 
