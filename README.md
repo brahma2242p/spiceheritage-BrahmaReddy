@@ -15,6 +15,8 @@
 - [Screenshots](#-screenshots)
 - [Setup / Installation](#-setup--installation)
 
+
+
 A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP, Servlets, Oracle/PostgreSQL, HTML, CSS, JavaScript, and Firebase OTP authentication**.  
 ---
 ## ✨ Features  
