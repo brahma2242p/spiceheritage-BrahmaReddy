@@ -14,6 +14,8 @@
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
 - [⚙️ Setup / Installation](#-setup-installation)
+- [Contribution Guidelines](#-contribution-guidelines)
+- [Contact](#-contact)
 
 
 
@@ -231,6 +233,30 @@ Cardinal Notation
 - Deploy the .war file to Tomcat webapps/ folder.
 
 - Start Tomcat and access
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/your-repo/issues).
+
+1.  Fork the repository.
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
+6.  If you need full original Source code contact me via LinkedIn or Email
+## 📬 Contact
+
+If you have any questions, suggestions, or want to report issues, feel free to reach out:
+
+- **Name:** Brahma Reddy  
+- **Email:** brahmareddypalem5757@example.com  
+- **GitHub:** [https://github.com/brahma2242p](https://github.com/brahma2242p)  
+- **LinkedIn:** [https://www.linkedin.com/in/brahma2242](https://www.linkedin.com/in/brahma2242)  
+
+You can also open issues or pull requests directly on this GitHub repository.
+
 
 
 
