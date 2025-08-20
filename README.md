@@ -3,7 +3,6 @@
 ![Java](https://img.shields.io/badge/Java-17+-orange?logo=java)  
 ![JSP](https://img.shields.io/badge/JSP%2FServlets-Jakarta-blue?logo=apachetomcat)  
 ![Database](https://img.shields.io/badge/Database-Oracle%20%7C%20PostgreSQL-green?logo=postgresql)  
-![Firebase](https://img.shields.io/badge/Auth-Firebase%20OTP-yellow?logo=firebase)  
 ![Status](https://img.shields.io/badge/Deployment-Render%20Cloud-success?logo=render)  
 
 A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP, Servlets, Oracle/PostgreSQL, HTML, CSS, JavaScript, and Firebase OTP authentication**.  
@@ -55,8 +54,8 @@ A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP,
 
 ```mermaid
 flowchart LR
-    User[👤 User] -->|Browser| JSP[JSP Pages]
-    JSP --> Servlet[Java Servlets]
+    User[👤 User] -->|Browser| HTML[HTML Pages]
+    HTML--> Servlet[Java Servlets]
     Servlet --> DB[(PostgreSQL / Oracle DB)]
     Admin[🛠 Admin] --> Servlet
-    Firebase[🔑 Firebase OTP] --> JSP
+    
