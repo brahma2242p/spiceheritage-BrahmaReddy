@@ -13,7 +13,7 @@
 - [Architecture](#-architecture)
 - [ER Diagram](#-spice-heritage-er-diagram)
 - [Screenshots](#-screenshots)
-- [Setup / Installation](#-setup--installation)
+- [Setup / Installation](#-setup-and-installation)
 
 
 
@@ -174,7 +174,7 @@ Cardinal Notation
 ### 🛒 Orders Management Page
 ![Orders Page](images/OrderManagement.png)
 
-## ⚙️ Setup / Installation
+## ⚙️ Setup and Installation
 ### 1️⃣ Clone the Repository
 - git clone https://github.com/your-username/spiceheritage.git
 - cd spiceheritage
