@@ -4,6 +4,7 @@
 ![JSP](https://img.shields.io/badge/JSP%2FServlets-Jakarta-blue?logo=apachetomcat)  
 ![Database](https://img.shields.io/badge/Database-Oracle%20%7C%20PostgreSQL-green?logo=postgresql)  
 ![Status](https://img.shields.io/badge/Deployment-Render%20Cloud-success?logo=render)  
+![Database Deployment](https://img.shields.io/badge/DB%20Hosting-Supabase-brightgreen?logo=supabase) 
 
 A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP, Servlets, Oracle/PostgreSQL, HTML, CSS, JavaScript, and Firebase OTP authentication**.  
 
@@ -12,7 +13,7 @@ A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP,
 ## ✨ Features  
 
 ### 👤 User Side  
-- 🔑 Login/Register/Forgot Password with **Firebase OTP Authentication**.  
+- 🔑 Login/Register/Forgot Password Pages.  
 - 📂 **Pickle Catalog** with dynamic product loading.  
 - 🛒 **Cart & Checkout** with up to **3 saved addresses**.  
 - 📑 **My Orders** with complete order history (items, prices, address).  
@@ -35,17 +36,17 @@ A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP,
 - HTML5, CSS3, Vanilla JavaScript  
 
 **Backend:**  
-- Java, JSP, Servlets (Jakarta)  
+- Java, JSP, Servlets (Jakarta) 
 
 **Database:**  
 - Oracle SQL (local dev)  
 - PostgreSQL (Render / Supabase deployment)  
 
 **Authentication:**  
-- Firebase OTP (Phone-based)  
+- Firebase OTP (Under Development )
 
 **Deployment:**  
-- Apache Tomcat 11  
+- SupaBase (PostgreSQl Database)
 - Render Cloud (war deployment)  
 
 ---
@@ -54,8 +55,9 @@ A full-stack **pickle e-commerce platform** built with ❤️ using **Java, JSP,
 
 ```mermaid
 flowchart LR
-    User[👤 User] -->|Browser| HTML[HTML Pages]
-    HTML--> Servlet[Java Servlets]
-    Servlet --> DB[(PostgreSQL / Oracle DB)]
-    Admin[🛠 Admin] --> Servlet
+    User[👤 User] <-->|Browser| HTML[HTML Pages]
+    HTML<--> Servlet[Java Servlets]
+    Servlet <--> DB[(PostgreSQL / Oracle DB)]
+    Admin[🛠 Admin] <--> |Browser| AdminPages[Admin Pages]
+    AdminPages<--> Servlet[Java Servlets]
     
