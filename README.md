@@ -8,12 +8,12 @@
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://spiceheritage-brahmareddy.onrender.com/)
 
 ## 📑 Table of Contents
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [ER Diagram](#-spice-heritage-er-diagram)
-- [Screenshots](#-screenshots)
-- [Setup / Installation](#-setup-and-installation)
+- [✨ Features](#-features)
+- [✨ Tech Stack](#-tech-stack)
+- [⚡ Architecture](#-architecture)
+- [🗄 ER Diagram](#-spice-heritage-er-diagram)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Setup / Installation](#-setup-and-installation)
 
 
 
@@ -175,9 +175,9 @@ Cardinal Notation
 ![Orders Page](images/OrderManagement.png)
 
 ## ⚙️ Setup and Installation
-### 1️⃣ Clone the Repository
-- git clone https://github.com/your-username/spiceheritage.git
-- cd spiceheritage
+ ### 1️⃣ Clone the Repository
+- git clone https://github.com/brahma2242p/spiceheritage-BrahmaReddy.git
+- cd spiceheritage-BrahmaReddy
 
 ### 2️⃣ Add Required JAR Files
 
@@ -230,7 +230,7 @@ Cardinal Notation
 
 - Deploy the .war file to Tomcat webapps/ folder.
 
-- Start Tomcat and access:
+- Start Tomcat and access
 
 
 
