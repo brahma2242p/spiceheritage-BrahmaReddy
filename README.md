@@ -13,7 +13,7 @@
 - [⚡ Architecture](#-architecture)
 - [🗄 ER Diagram](#-spice-heritage-er-diagram)
 - [📸 Screenshots](#-screenshots)
-- [⚙️ Setup / Installation](#-setup-and-installation)
+- [⚙️ Setup / Installation](#-setup-installation)
 
 
 
@@ -174,7 +174,7 @@ Cardinal Notation
 ### 🛒 Orders Management Page
 ![Orders Page](images/OrderManagement.png)
 
-## ⚙️ Setup and Installation
+## ⚙️ Setup Installation
  ### 1️⃣ Clone the Repository
 - git clone https://github.com/brahma2242p/spiceheritage-BrahmaReddy.git
 - cd spiceheritage-BrahmaReddy
