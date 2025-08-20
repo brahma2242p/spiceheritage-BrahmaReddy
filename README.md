@@ -1,4 +1,4 @@
-# 🥒 SpiceHeritage – Pickle E-Commerce Website  
+#  SpiceHeritage – Pickle E-Commerce Website  
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?logo=java)  
 ![JSP](https://img.shields.io/badge/JSP%2FServlets-Jakarta-blue?logo=apachetomcat)  
